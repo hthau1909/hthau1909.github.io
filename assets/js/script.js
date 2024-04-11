@@ -37,5 +37,9 @@ $(document).ready(function() {
         enabled: true
       }
   });
+
+  $('.collapse.navbar-collapse .nav-link').click(function() {
+    $('.collapse.navbar-collapse').toggleClass('show');
+  });
 });
 
