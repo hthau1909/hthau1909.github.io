@@ -1,0 +1,380 @@
+/* @media (min-width:576px){
+	.navbar-expand-lg {
+
+	}
+}
+@media (min-width:768px){
+	.navbar-expand-lg {
+
+	}
+} */
+@media (max-width:992px){
+	.navbar-expand-lg .navbar-collapse{
+		background-color: #25242426;
+		margin-top: 2px;
+	}
+	.navbar-expand-lg .navbar-collapse li.nav-item {
+		border-bottom: 1px solid white;
+		padding-left: 8px;
+	}
+	.navbar-expand-lg .navbar-collapse li.nav-item:hover {
+		background-color: rgb(172 172 172 / 10%);
+	}
+}
+/* @media (min-width:1200px){
+
+} */
+
+a {
+	text-decoration: none;
+}
+#home {
+    background-image: url('../images/banner-img.jpg');
+    background-size: cover;
+}
+
+.navbar-dark {
+    transition: all .5s ease-in-out;  
+}
+
+.navbar-reduce {
+    transition: all .5s ease-in-out;
+    background-color: #252424;
+}
+
+.hero-caption {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.hero-caption-full h2{
+	color: #ffbd39;
+}
+
+.hero-caption-full p {
+	font-size: 18px;
+	line-height: 30px;
+	color: #fff;
+}
+
+/*
+ * 6. About Us Area
+*/
+.about-info-btn a.button-2 {
+	margin-left: 20px;
+}
+.about-info h5 {
+	color: #ffbd39;
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+.about-info h2 {
+	font-size: 22px;
+	line-height: 31px;
+	margin-bottom: 20px;
+	font-weight: 700;
+}
+.about-info h2 span{
+	color: #ffbd39;
+}
+.about-info p {
+	margin-bottom: 12px;
+	line-height: 24px;
+}
+.about-social span {
+	float: left;
+	padding-right: 15px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: 18px;
+}
+.about-social ul {
+	overflow: hidden;
+}
+.about-social ul li{
+	display: inline-block;
+	margin: 0px 3px;
+}
+.about-social ul li a{
+	display: inline-block;
+}
+.about-social ul li a i {
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	background: #163d4d;
+	color: #fff;
+	font-size: 14px;
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+.about-social ul li a i:hover {
+	background: #1b7599;
+}
+.counter-box {
+    margin-bottom: 30px;
+    padding: 4px 20px;
+    border-left: 5px solid  #ffbd39;
+}
+.counter-box h2.counter {
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	color: #000000;
+}
+.counter-box span {
+	color: #000000;
+}
+.pb-100 {
+    padding-bottom: 100px;
+}
+.pt-100 {
+    padding-top: 100px;
+}
+
+/*
+ * 7. Section Title
+*/
+.section-headding h2 {
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	margin-bottom: 15px;
+}
+.title-divider {
+	width: 150px;
+	height: 2px;
+	background: #ffbd39;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 15px;
+}
+.title-divider:after {
+	content: "";
+	clear: both;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	background: #fff;
+	border-radius: 50%;
+	left: 0;
+	right: 0;
+	top: -7px;
+	margin: 0 auto;
+	border: 3px solid #ffbd39
+}
+
+/*
+ * 8. Our Services
+*/
+.services-box {
+	text-align: center;
+	padding: 40px 26px;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 6px;
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+.services-box:hover{
+	transform: translateY(-10px);
+}
+.services-box .icon {
+	background: #ffbd39;
+	width: 90px;
+	height: 90px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	color: #000000;
+}
+.services-box h2 {
+	font-size: 22px;
+	margin-bottom: 10px;
+	font-weight: 700;
+	color: #000000;
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+.services-box:hover h2{
+	color: #ffbd39;
+}
+
+/*
+ * 9. Resume Area
+*/
+.resume-item-box {
+	padding: 30px 20px;
+	text-align: left;
+	box-shadow: -25px 0px 99px #c1bfe47a;
+}
+.resume-item-box span {
+	background: #ffbd39;
+	color: #fff;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 2px 14px;
+	display: inline-block;
+	border-radius: 20px;
+}
+.resume-item-box h2 {
+	font-size: 22px;
+	font-weight: 700;
+	margin-top: 12px;
+	margin-bottom: 2px;
+}
+.resume-item-box h4 {
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+	color: #353131;
+}
+/*
+ * 10. Portfolio Area
+*/
+.portfolio-list {
+	text-align: center;
+}
+.portfolio-list ul li {
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	cursor: pointer;
+	padding: 2px 10px;
+}
+.portfolio-item {
+	position: relative;
+	display: block;
+	width: 100%;
+	color: #000000;
+	overflow: hidden;
+}
+.portfolio-item img{
+	width: 100%;
+}
+.portfolio-item::after {
+	content: "";
+	clear: both;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	width: 0%;
+	height: 50%;
+	background: rgba(255, 255, 255, 0.8);
+	bottom: 0;
+	left: 0;
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+.portfolio-item:before{
+	content: "";
+	clear: both;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	width: 0%;
+	height: 50%;
+	background: rgba(255, 255, 255, 0.8);
+	top: 0;
+	right: 0;
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+.portfolio-item:hover {
+	color: #000000;
+}
+.portfolio-item:hover::before {
+	width: 100%;
+}
+.portfolio-item:hover::after {
+	width: 100%;
+}
+.portfolio-item-overly {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	margin: 0;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+	z-index: 999;
+}
+.portfolio-item-overly-full {
+	position: absolute;
+	margin: 0;
+	top: 50%;
+	left: 30%;
+	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+	overflow: hidden;
+	opacity: 0;
+	visibility: hidden;
+	text-align: center;
+}
+.portfolio-item:hover .portfolio-item-overly-full {
+	left: 50%;
+	opacity: 1;
+	visibility: visible;
+}
+.portfolio-item-overly-full p {
+	font-weight: bold;
+	color: rgba(240, 15, 56, 0.94)!important;
+	font-size: 12px;
+	margin: 2px;
+}
+.mixitup-control-active {
+	color: #ffbd39;
+}
+/*
+ * 13. Contact Area
+*/
+.contact-form input {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 15px 20px;
+	border: 1px solid #6f6c6c61;
+	font-size: 14px;
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	outline: none;
+}
+.contact-form input:focus {
+	border-color: #d7d3d3;
+}
+.contact-form textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 15px 20px;
+	border: 1px solid #6f6c6c61;
+	font-size: 14px;
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	height: 150px;
+	outline: none;
+}
+.contact-form textarea:focus {
+	border-color: #d7d3d3;
+}
+.contact-form button {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
